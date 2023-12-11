@@ -1,1 +1,2 @@
-worker: java -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 -cp ./target/classes:./target/dependency/* diplom.telegramBotDiplom.TgbotDiplomApplication
+#worker: java -Xmx300m -Xss512k -XX:CICompilerCount=2 -Dfile.encoding=UTF-8 -cp ./target/classes:./target/dependency/* diplom.telegramBotDiplom.TgbotDiplomApplication
+procfile - worker: sh target/bin/tg_bot_diplom
