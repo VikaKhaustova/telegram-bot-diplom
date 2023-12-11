@@ -1,0 +1,69 @@
+2023-12-11 19:59:04,278 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] Starting TgbotDiplomApplication using Java 17.0.7 on DESKTOP-G279QCV with PID 17108 (C:\Users\Виктория\Desktop\telegram-bot-2\target\classes started by Виктория in C:\Users\Виктория\Desktop\telegram-bot-2)
+2023-12-11 19:59:04,282 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-11 19:59:05,374 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-11 19:59:05,546 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 150 ms. Found 10 JPA repository interfaces.
+2023-12-11 19:59:06,497 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-11 19:59:06,640 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2023-12-11 19:59:07,040 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-11 19:59:07,275 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-11 19:59:08,299 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-11 19:59:08,374 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-11 19:59:10,290 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-11 19:59:10,315 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-11 19:59:12,746 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] Started TgbotDiplomApplication in 9.365 seconds (JVM running for 11.732)
+2023-12-11 19:59:13,202 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: START
+2023-12-11 19:59:13,203 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: /start
+2023-12-11 19:59:13,433 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Replied to user Віка
+2023-12-11 19:59:13,433 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] currentState in sendMessage MAIN_MENU
+2023-12-11 19:59:13,435 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in sendMessage: [MAIN_MENU]/n/n
+2023-12-11 19:59:13,720 INFO diplom.telegramBotDiplom.service.OrderService [vikaPizzeriaBot Telegram Executor] Замовлення користувача з chatId: 347016249 відсутнє для очищення
+2023-12-11 23:00:42,073 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: MAIN_MENU
+2023-12-11 23:00:42,107 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: переглянути меню
+2023-12-11 23:00:42,154 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in SubMenu: [MAIN_MENU, SUB_MENU]
+2023-12-11 23:00:43,044 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: SUB_MENU
+2023-12-11 23:00:43,045 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: кухня
+2023-12-11 23:00:43,056 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack: [MAIN_MENU, SUB_MENU, SUB_MENU]
+2023-12-11 23:00:44,151 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: KITCHEN_MENU
+2023-12-11 23:00:44,155 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: доповнення
+2023-12-11 23:00:45,027 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: KITCHEN_MENU
+2023-12-11 23:00:51,873 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: KITCHEN_MENU
+2023-12-11 23:00:51,875 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: Повернутися назад
+2023-12-11 23:00:51,877 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Current State: SUB_MENU
+2023-12-11 23:00:51,883 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor]  New State State: SUB_MENU
+2023-12-11 23:00:51,892 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in SubMenu: [MAIN_MENU, SUB_MENU]
+2023-12-11 23:00:53,556 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: SUB_MENU
+2023-12-11 23:00:53,558 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: Повернутися назад
+2023-12-11 23:00:53,559 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Current State: MAIN_MENU
+2023-12-11 23:00:53,560 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor]  New State State: MAIN_MENU
+2023-12-11 23:00:53,563 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack: [MAIN_MENU]
+2023-12-11 23:00:53,852 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current subscribed state: false
+2023-12-11 23:00:55,911 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: MAIN_MENU
+2023-12-11 23:00:55,912 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: зробити замовлення
+2023-12-11 23:00:55,912 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in SubMenu: [MAIN_MENU, SUB_MENU]
+2023-12-11 23:00:57,110 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: SUB_MENU
+2023-12-11 23:00:57,112 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: бар
+2023-12-11 23:00:57,116 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] currentState in bar: BAR_MENU
+2023-12-11 23:00:57,117 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in bar: [MAIN_MENU, SUB_MENU, BAR_MENU]
+2023-12-11 23:00:58,129 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:00:58,131 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: чай
+2023-12-11 23:00:58,941 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:00,137 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:05,930 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:05,959 INFO diplom.telegramBotDiplom.service.OrderService [vikaPizzeriaBot Telegram Executor] Додано або оновлено продукт:Чай трав'яний у методі addOrUpdateProductInOrder з ID: 23 до замовлення користувача з chatId: 347016249, кількість: 1
+2023-12-11 23:01:05,962 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Додано або оновлено продукт у методі handleAddToOrderContinueForTea з ID: 23 до замовлення користувача з chatId: 347016249, кількість: 1
+2023-12-11 23:01:05,965 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Оновлено повідомлення користувача з chatId: 347016249 з підтвердженням додавання продукту з ID: 23
+2023-12-11 23:01:06,913 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:07,781 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:07,782 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: чай
+2023-12-11 23:01:08,500 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:10,306 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:11,040 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:11,044 INFO diplom.telegramBotDiplom.service.OrderService [vikaPizzeriaBot Telegram Executor] Додано або оновлено продукт:Чай фруктовий у методі addOrUpdateProductInOrder з ID: 22 до замовлення користувача з chatId: 347016249, кількість: 1
+2023-12-11 23:01:11,046 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Додано або оновлено продукт у методі handleAddToOrderContinueForTea з ID: 22 до замовлення користувача з chatId: 347016249, кількість: 1
+2023-12-11 23:01:11,047 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Оновлено повідомлення користувача з chatId: 347016249 з підтвердженням додавання продукту з ID: 22
+2023-12-11 23:01:12,737 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:17,537 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: BAR_MENU
+2023-12-11 23:01:17,777 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Оновлено повідомлення користувача з chatId: 347016249 з підтвердженням додавання продукту та інформацією про оплату
+2023-12-11 23:01:33,286 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-11 23:01:33,386 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-11 23:01:33,424 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
