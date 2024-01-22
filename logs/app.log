@@ -50,3 +50,69 @@
 2024-01-22 19:08:55,119 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-01-22 19:08:55,122 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2024-01-22 19:08:55,162 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-01-22 20:13:58,000 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] Starting TgbotDiplomApplication using Java 17.0.7 on DESKTOP-G279QCV with PID 13848 (C:\Users\Виктория\Desktop\telegram-bot-2\target\classes started by Виктория in C:\Users\Виктория\Desktop\telegram-bot-2)
+2024-01-22 20:13:58,033 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:14:04,015 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22 20:14:04,942 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 812 ms. Found 10 JPA repository interfaces.
+2024-01-22 20:14:14,472 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-01-22 20:14:14,575 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 20:14:14,579 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-01-22 20:14:14,582 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-01-22 20:14:15,816 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-01-22 20:14:15,818 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 17058 ms
+2024-01-22 20:14:18,224 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22 20:14:18,933 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-01-22 20:14:21,702 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-22 20:14:22,939 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-01-22 20:14:26,286 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-01-22 20:14:26,543 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-22 20:14:35,348 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-22 20:14:35,470 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22 20:14:45,782 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22 20:14:53,158 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-22 20:14:53,590 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] Started TgbotDiplomApplication in 61.564 seconds (JVM running for 72.128)
+2024-01-22 20:14:53,856 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22 20:14:53,869 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-01-22 20:14:53,972 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-01-22 20:15:22,947 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] Starting TgbotDiplomApplication using Java 17.0.7 on DESKTOP-G279QCV with PID 18352 (C:\Users\Виктория\Desktop\telegram-bot-2\target\classes started by Виктория in C:\Users\Виктория\Desktop\telegram-bot-2)
+2024-01-22 20:15:22,972 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-22 20:15:27,596 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-22 20:15:28,265 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 577 ms. Found 10 JPA repository interfaces.
+2024-01-22 20:15:34,411 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-01-22 20:15:34,506 INFO org.apache.coyote.http11.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-22 20:15:34,509 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-01-22 20:15:34,511 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-01-22 20:15:35,547 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-01-22 20:15:35,549 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 12066 ms
+2024-01-22 20:15:37,085 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-22 20:15:37,568 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-01-22 20:15:39,105 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-22 20:15:40,109 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-01-22 20:15:42,840 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-01-22 20:15:43,008 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-01-22 20:15:54,369 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-22 20:15:54,529 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22 20:16:01,699 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-22 20:16:04,367 INFO org.apache.coyote.http11.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-22 20:16:04,558 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-22 20:16:04,860 INFO diplom.telegramBotDiplom.TgbotDiplomApplication [main] Started TgbotDiplomApplication in 45.646 seconds (JVM running for 55.575)
+2024-01-22 20:16:06,055 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: START
+2024-01-22 20:16:06,058 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: кава
+2024-01-22 20:16:06,059 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: START
+2024-01-22 20:16:06,061 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: /start
+2024-01-22 20:16:07,007 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Replied to user Віка
+2024-01-22 20:16:07,009 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] currentState in sendMessage MAIN_MENU
+2024-01-22 20:16:07,011 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in sendMessage: [MAIN_MENU]/n/n
+2024-01-22 20:16:07,234 INFO diplom.telegramBotDiplom.service.OrderService [vikaPizzeriaBot Telegram Executor] Замовлення користувача з chatId: 347016249 відсутнє для очищення
+2024-01-22 20:16:07,236 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: MAIN_MENU
+2024-01-22 20:16:07,237 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: /start
+2024-01-22 20:16:07,270 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Replied to user Віка
+2024-01-22 20:16:07,271 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] currentState in sendMessage MAIN_MENU
+2024-01-22 20:16:07,272 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in sendMessage: [MAIN_MENU, MAIN_MENU]/n/n
+2024-01-22 20:16:07,462 INFO diplom.telegramBotDiplom.service.OrderService [vikaPizzeriaBot Telegram Executor] Замовлення користувача з chatId: 347016249 відсутнє для очищення
+2024-01-22 20:16:10,344 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Chat ID: 347016249, Current State: MAIN_MENU
+2024-01-22 20:16:10,346 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Received message: зробити замовлення
+2024-01-22 20:16:10,349 INFO diplom.telegramBotDiplom.service.TelegramBot [vikaPizzeriaBot Telegram Executor] Stack after adding to stack in SubMenu: [MAIN_MENU, MAIN_MENU, SUB_MENU]
+2024-01-22 20:16:21,416 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-22 20:16:21,426 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-01-22 20:16:21,517 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
